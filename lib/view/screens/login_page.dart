@@ -1,5 +1,7 @@
 import 'package:bugun_juma/main_view_model/cubit/male_cubit.dart';
 import 'package:bugun_juma/main_view_model/cubit/name_cubit.dart';
+import 'package:bugun_juma/main_view_model/cubit/view_cubit.dart';
+import 'package:bugun_juma/main_view_model/data_base/sqflite_base.dart';
 import 'package:bugun_juma/view/screens/lang_change_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -20,10 +22,18 @@ class _LoginPageState extends State<LoginPage> {
   TextEditingController _password = TextEditingController();
   late bool maleOr = false;
   late MaleCubit _cubit2;
+  late ViewCubit _viewCubit;
+  Future<void> clearData() async {
+    final db = await SQLHelper.db();
+    _viewCubit.taskList.clear();
+    await db.delete('items');
+
+  }
 
   @override
   void initState() {
     _cubit2 = context.read<MaleCubit>();
+   _viewCubit=context.read<ViewCubit>();
     _cubit2.getMale();
 
     super.initState();
@@ -195,7 +205,7 @@ class _LoginPageState extends State<LoginPage> {
                             await prefs.clear();
                             if (_password.text != "" && _login.text != "") {
                               _cubit2.setMale(maleOr);
-
+                                  clearData();
                               context.read<NameCubit>().setName(
                                     _login.text,
                                     _password.text,

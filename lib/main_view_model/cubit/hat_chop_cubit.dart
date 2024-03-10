@@ -20,7 +20,7 @@ class HatChopCubit extends Cubit<String> {
     Directory? directory;
     final path2= Directory("storage/emulated/0/BugunJumaApp/");
     path2.create();
-    final path= Directory("storage/emulated/0/BugunJumaApp/Quran");
+    final path= Directory("storage/emulated/0/BugunJumaApp/Suralar");
     path.create();
 
 

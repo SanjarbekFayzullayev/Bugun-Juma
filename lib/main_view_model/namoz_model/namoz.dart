@@ -9,20 +9,12 @@ class Namoz {
     this.name,
   );
 
-  static List<String> namozlar = [
-    "Juma namozi",
-    "Peshin namozi",
-    "Asr namozi",
-    "Shom namozi",
-    "Xufton namozi",
-    "Juma namozi",
-  ];
   static List<Namoz> data = [
     Namoz("Poklik", "assets/imgs/masjidbg.png", """
     Juma kuni yuvinish sunnatdir. Ba’zi odamlarning fikricha vojibdir.
 Kishining ish kiyimlaridan tashqari juma kuni kiyadigan bir
  ichki va tashqi kiyimi bo’lsa, yaxshi, bu hol imkoni borlar uchun 
- mustahabdir. Muhimi ozodlik va poklikdir. 
+ mustahabdir. Muhimi ozodalik va poklikdir. 
 Rasululloh (s.a.v.) marhamat qiladilar: “Kimki juma kuni 
 tirnoqlarini olsa, Alloh undan bir kasallikni ketkazadi va bir shifo beradi”
 \nMa'lumot uchun g'usul va tahorat qilishni ilovamizni poklanish sahifasindan o'rganishingiz mumkin. 
@@ -30,7 +22,7 @@ tirnoqlarini olsa, Alloh undan bir kasallikni ketkazadi va bir shifo beradi”
     Namoz("Fazli haqida", "assets/imgs/masjidbg.png", """
 Paygʼambarimiz (sollallohu alayhi va sallam) aytdilar: “Har kim Duxon surasini juma kuni 
 yoki kechasi oʼqisa, Аlloh taolo u bandasi uchun jannatda bir koʼshk bino etadi”. 
-“Har kim Duxon surasini tunda oʼqisa, yetmish ming farishta tongga qadar u inson uchun istigʼfor 44 
+“Har kim Duxon surasini tunda oʼqisa, yetmish ming farishta tongga qadar u inson uchun istigʼfor
  aytadi va Аlloh taolodan u insonni afv etishini tilab turadilar”. “Bir inson Yosin va Duxon 
  suralarini juma kechasi boshidan oxiriga qadar oʼqisa va bu oʼqigan suralarning fazilatiga 
  ixlos qilsa, Аlloh uning avvalgi gunohlarini afv etadi”.
@@ -43,7 +35,7 @@ yoki kechasi oʼqisa, Аlloh taolo u bandasi uchun jannatda bir koʼshk bino eta
     
 Namozdan keyin nonushta qilgach, ishga jo’nadim. “Yaxshi borib kel o’glim! Doimo Allohni yod et. Hech esingdan chiqazmaginki, doimo u Zot sening madadkoring bo’ladi”, deya fotiha berdi onam.
 Boshlig’im Baxtiyor aka juda jiddiy, salobatli kishi. Birinchi ko’rganimda u kishini oldilarida ozgina dovdiradim ham. G’alati odam ekan, birovni xafa qilmaydi, maqtamaydi ham. Nima demoqchi ekanini ko’z qarashidan bilaman. Yo’lda ketar ekanmiz, Baxtiyor aka peshin payti uchrashuvi borligini tayinladi. “Xo’p” deyishimga qaramay, meni “Bugun juma, xo’jayinni uchrashuvga olib borsam, juma namoziga ulgurmay qolaman, endi nima qildim?”, degan o’y qiynay boshladi.
-Belgilangan uchrashuvga boorish uchun ketayotganimizda oldimda turgan manzarani ko’rib, hayratdan yoqa ushladim: “Axir bu tushimdagi yo’llar-ku! O’ng tomondagisida masjid, to’grida keti ko’rinmas yo’l…”. odamlar masjid tomon oqib ketayotir. “Allohim menga madad ber! Nima qilay, moshinani masjid tomon buraymi, yoki xo’jayinni manziliga olib boraymi?!” “Yo Parvardigorim, O’zing meni qo’lla”, deya moshinani masjid tomon burdim. Baxtiyor aka xayron bo’lib: “Qayoqqa yurding, to’g’riga ketishimiz kerak-ku?”, dedi. Men: “Baxtiyor aka, bugun juma, shundoq juma namozini o’qib chiqay”, deganimni bilaman u kishining rangi o’zgarib ketdi: “Jinni bo’lganmisan, soat birda muhim uchrashuvim bor”. Bor kuchimni to’plab: “Baxtiyor aka, mana kalit, men jumaga kech qolamay”, degancha masjid tomon yugurdim. Yelkamdan tog’ ag’darilganday yengil bo’ldim, ta’riflashga til ojiz.
+Belgilangan uchrashuvga borish uchun ketayotganimizda oldimda turgan manzarani ko’rib, hayratdan yoqa ushladim: “Axir bu tushimdagi yo’llar-ku! O’ng tomondagisida masjid, to’grida keti ko’rinmas yo’l…”. odamlar masjid tomon oqib ketayotir. “Allohim menga madad ber! Nima qilay, moshinani masjid tomon buraymi, yoki xo’jayinni manziliga olib boraymi?!” “Yo Parvardigorim, O’zing meni qo’lla”, deya moshinani masjid tomon burdim. Baxtiyor aka xayron bo’lib: “Qayoqqa yurding, to’g’riga ketishimiz kerak-ku?”, dedi. Men: “Baxtiyor aka, bugun juma, shundoq juma namozini o’qib chiqay”, deganimni bilaman u kishining rangi o’zgarib ketdi: “Jinni bo’lganmisan, soat birda muhim uchrashuvim bor”. Bor kuchimni to’plab: “Baxtiyor aka, mana kalit, men jumaga kech qolamay”, degancha masjid tomon yugurdim. Yelkamdan tog’ ag’darilganday yengil bo’ldim, ta’riflashga til ojiz.
 Azon aytildi, safga qo’shildim. Ko’zlarim hech narsani ko’rmas, quloqlarim eshitmas edi. Xuddi Rabbimning qarshisida yolg’iz turgandek edim. Bu halovatni tushuntirib berish qiyin.
 Namozdan keyin ko’zlarimda yosh bilan duo qildim: “Ey, Allohim, meni hech qachon ikki yo’l orasida qoldirma, O’zing to’g’ri yo’ldan adashtirma! O’zingdan boshqaga muhtoj qilma!”
 Duodan keyin o’zimga kelib, sal narida o’tirgan kishiga ko’zim tushdi. Qo’lidagi uzuk tanish edi. Hayajon ichra uning yuzlariga boqdim. Ne ko’z bilan qarayki, u boshlig’im Baxtiyor aka edi. Juma ayyomi bilan qutlab, meni quchog’iga oldi…”
