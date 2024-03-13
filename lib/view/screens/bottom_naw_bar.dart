@@ -85,7 +85,7 @@ class _BottomNawBarState extends State<BottomNawBar> {
         elevation: 20,
         shadowColor: Colors.grey,
       ),
-      content: const Text("Dasturdan chiqadsizmi?",
+      content: const Text("Dasturdan chiqasizmi?",
           style: TextStyle(
               fontSize: 24, color: Colors.white, fontWeight: FontWeight.w600)),
       actions: [

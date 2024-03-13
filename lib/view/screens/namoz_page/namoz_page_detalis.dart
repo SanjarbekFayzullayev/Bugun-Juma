@@ -8,9 +8,10 @@ class NamozPageDetils extends StatefulWidget {
   String step;
   String name;
   String appBarName;
+  bool setting;
 
   NamozPageDetils(this.imgUrl, this.step, this.name, this.appBarName,
-      {Key? key})
+      {this.setting =false,Key? key})
       : super(key: key);
 
   @override
@@ -67,9 +68,9 @@ class _NamozPageDetilsState extends State<NamozPageDetils> {
                 iconTheme: const IconThemeData(color: Colors.white),
                 backgroundColor: Colors.transparent,
                 centerTitle: true,
-                title: const Text(
-                  "Juma kuni",
-                  style: TextStyle(
+                title:  Text(
+                  widget.step,
+                  style: const TextStyle(
                       color: Colors.white, fontWeight: FontWeight.bold),
                 ),
               ),
@@ -92,7 +93,7 @@ class _NamozPageDetilsState extends State<NamozPageDetils> {
                             padding: EdgeInsets.all(size.height * 0.01),
                             child: Text(
                               overflow: TextOverflow.ellipsis,
-                              widget.step,
+                             widget.setting==false? widget.step:"",
                               style: TextStyle(
                                   color: state == false
                                       ? const Color(0xFF63A988)

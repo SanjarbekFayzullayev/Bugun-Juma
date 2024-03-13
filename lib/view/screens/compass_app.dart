@@ -155,7 +155,7 @@ class _CompassScreenState extends State<CompassScreen> {
                           Padding(
                             padding: EdgeInsets.all(size.height * 0.008),
                             child: Text(
-                              "Siz turga mintaqa\n${_cubit.viloyatlar[_cubit.countIndex]}(shim.keng:${_cubit.latitude}/sharq.urun${_cubit.longitude})",
+                              "Siz turga mintaqa\n${_cubit.viloyatlar[_cubit.countIndex]}(shim.keng:${_cubit.latitude}/sharq.uzun${_cubit.longitude})",
                               style: TextStyle(
                                   color: Colors.white,
                                   fontSize: size.height * 0.02,

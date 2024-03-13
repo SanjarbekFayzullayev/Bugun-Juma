@@ -74,7 +74,7 @@ class QuotesPage extends StatelessWidget {
                   ),
                   behavior: SnackBarBehavior.floating,
                   content: Text(
-                    "Matn nushalandi!",
+                    "Matn nusalandi!",
                     style: TextStyle(
                         color: Colors.white, fontSize: size.height * 0.02),
                   ),

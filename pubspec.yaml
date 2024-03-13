@@ -33,7 +33,6 @@ dependencies:
   syncfusion_flutter_datepicker: ^21.1.37
   sqflite: ^2.0.0
 
-
 dev_dependencies:
   flutter_test:
     sdk: flutter

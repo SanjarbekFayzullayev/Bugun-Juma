@@ -429,7 +429,7 @@ class _QuranPageState extends State<QuranPage> {
                                                           isLoading == false
                                                               ? inkWell(
                                                                   data.audioFull!
-                                                                      .s05!,
+                                                                      .s01!,
                                                                   index,
                                                                   data.namaLatin!,
                                                                   5)

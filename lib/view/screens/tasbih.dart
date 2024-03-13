@@ -130,7 +130,7 @@ class _TasbihPageState extends State<TasbihPage> {
                                   Vibration.vibrate(duration: 1);
                                   if (cubit.allCount == cubit.record) {
                                     _startConfetti();
-                                    cubit.playSound("audios/confatti.mp3");
+                                    cubit.volume==true? cubit.playSound("audios/confatti.mp3"):const SizedBox();
                                     switch(cubit.record){
                                       case 100:
                                         cubit.setRecord(500);
